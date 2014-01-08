@@ -1,0 +1,14 @@
+name: JourneyHorde
+main: com.icloud.jxthibeault.JourneyHorde.JourneyHorde
+version: 1.0.0
+commands:
+  jh:
+    description: JourneyHorde admin command.
+    usage: /jh <command>
+    permission: horde.admin
+    permission-message: You don't have permission to use JourneyHorde admin commands.
+  horde:
+    description: JourneyHorde user command.
+    usage: /horde <command>
+    permission: horde.user
+    permission-message: You don't have permission to use JourneyHorde user commands.
